@@ -6,7 +6,7 @@ import 'package:password_criteria/bloc/password_strength/password_strength_bloc.
 
 class PasswordStrengthPage extends StatefulWidget {
   String value;
-  PasswordStrengthPage(@required this.value);
+  PasswordStrengthPage( this.value);
 
   @override
   _PasswordStrengthPageState createState() => _PasswordStrengthPageState();

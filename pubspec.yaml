@@ -1,8 +1,7 @@
 name: password_criteria
 description: A new Flutter plugin for password criteria 
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/anandat/password_criteria
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -12,7 +11,8 @@ dependencies:
     sdk: flutter
   bloc: ^3.0.0
   flutter_bloc: ^3.2.0
-  equatable: 0.5.1
+  equatable: ^0.5.1
+  meta: ^1.1.8
 
 dev_dependencies:
   flutter_test:

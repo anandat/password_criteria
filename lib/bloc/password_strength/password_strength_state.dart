@@ -14,5 +14,5 @@ class InvalidPassword extends PasswordStrengthState {
   Map<String, bool> passwordValidation;
   bool isInvalidPassword ;
 
-  InvalidPassword({@required this.passwordValidation , @required this.isInvalidPassword});
+  InvalidPassword({@required this.passwordValidation ,  this.isInvalidPassword});
 }
