@@ -3,14 +3,16 @@ part of 'password_strength_bloc.dart';
 @immutable
 abstract class PasswordStrengthEvent {}
 
+@immutable
 class OnTextChangedEvent extends PasswordStrengthEvent {
-  String text;
+  final String text;
 
   OnTextChangedEvent({this.text});
 }
 
+@immutable
 class PasswordRegEx extends PasswordStrengthEvent {
-  String passwordtext;
+  final String passwordtext;
 
   PasswordRegEx({this.passwordtext});
 }

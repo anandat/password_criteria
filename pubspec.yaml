@@ -1,6 +1,7 @@
 name: password_criteria
-description: A new Flutter plugin for password criteria 
-version: 0.0.3
+description: When one starts typing & the password starts meeting the criterion specified,
+  the corresponding/respective criterion turns black in color.
+version: 0.1.2
 homepage: https://github.com/anandat/password_criteria
 
 environment:
@@ -10,9 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   bloc: ^3.0.0
-  flutter_bloc: ^3.2.0
-  equatable: ^0.5.1
+  flutter_bloc: ^3.0.0
+  equatable: ^1.1.1
   meta: ^1.1.8
+  pana: ^0.13.8
 
 dev_dependencies:
   flutter_test:

@@ -1,14 +1,23 @@
 # password_criteria
 
-A new Flutter plugin for password criteria 
+
 
 ## Getting Started
+!["Password_Criteria_view"](example/lib/gif/password_criteria.png)
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+# A new Flutter plugin for password criteria
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Current version (0.1.1) Bug Fixes and clean code
+
+This package returns a container view which is having 5 criteria in Red color.
+
+#criteria
+1. At least one lower case
+2. At least on upper case
+3. At least One number
+4. one special character
+5. Minimum 8 character
+
+When one starts typing & the password starts meeting the criterion specified,
+the corresponding/respective criterion turns black in color.
+It ie a very useful library for signup forms & change password forms

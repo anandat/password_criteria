@@ -4,15 +4,18 @@ part of 'password_strength_bloc.dart';
 abstract class PasswordStrengthState {}
 
 class InitialPasswordStrengthState extends PasswordStrengthState {}
+
 class OnTextChangedState extends PasswordStrengthState {
-  String text;
+  final String text;
+
   OnTextChangedState({this.text});
 }
 
-class ValidPassword extends PasswordStrengthState{}
-class InvalidPassword extends PasswordStrengthState {
-  Map<String, bool> passwordValidation;
-  bool isInvalidPassword ;
+class ValidPassword extends PasswordStrengthState {}
 
-  InvalidPassword({@required this.passwordValidation ,  this.isInvalidPassword});
+class InvalidPassword extends PasswordStrengthState {
+  final Map<String, bool> passwordValidation;
+  final bool isInvalidPassword;
+
+  InvalidPassword({@required this.passwordValidation, this.isInvalidPassword});
 }
