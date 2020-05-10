@@ -1,7 +1,7 @@
 name: password_criteria
 description: When one starts typing & the password starts meeting the criterion specified,
   the corresponding/respective criterion turns black in color.
-version: 0.1.2
+version: 0.1.1
 homepage: https://github.com/anandat/password_criteria
 
 environment:
@@ -10,11 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bloc: ^3.0.0
-  flutter_bloc: ^3.0.0
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
   equatable: ^1.1.1
   meta: ^1.1.8
-  pana: ^0.13.8
+
 
 dev_dependencies:
   flutter_test:
