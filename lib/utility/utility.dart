@@ -7,7 +7,8 @@ class Utility {
 
     String lowerCase = r'^(?=.*?[a-z])';
     String upperCase = r'^(?=.*?[A-Z])';
-    String specialChar = r'^(?=.*?[)(\][)(|:};{?.="\u0027%!+<@>#\$/&*~^_-`,\u005C\u002D])';
+    String specialChar =
+        r'^(?=.*?[)(\][)(|:};{?.="\u0027%!+<@>#\$/&*~^_-`,\u005C\u002D])';
 
     String oneNumber = r'^(?=.*?[0-9])';
 

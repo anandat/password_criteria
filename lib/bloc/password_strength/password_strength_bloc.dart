@@ -3,17 +3,18 @@ import "package:bloc/bloc.dart";
 import 'package:meta/meta.dart';
 import 'package:password_criteria/utility/utility.dart';
 
-
 part 'password_strength_event.dart';
 
 part 'password_strength_state.dart';
 
-class PasswordStrengthBloc extends Bloc<PasswordStrengthEvent, PasswordStrengthState> {
+class PasswordStrengthBloc
+    extends Bloc<PasswordStrengthEvent, PasswordStrengthState> {
   @override
   PasswordStrengthState get initialState => InitialPasswordStrengthState();
 
   @override
-  Stream<PasswordStrengthState> mapEventToState(PasswordStrengthEvent event) async* {
+  Stream<PasswordStrengthState> mapEventToState(
+      PasswordStrengthEvent event) async* {
     if (event is OnTextChangedEvent) {
       yield OnTextChangedState(text: event.text);
     }
