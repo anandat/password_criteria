@@ -1,7 +1,7 @@
 name: password_criteria
 description: When one starts typing & the password starts meeting the criterion specified,
   the corresponding/respective criterion turns black in color.
-version: 0.1.1
+version: 0.1.4
 homepage: https://github.com/anandat/password_criteria
 
 environment:

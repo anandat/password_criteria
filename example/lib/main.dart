@@ -30,7 +30,7 @@ class PasswordCriteria extends StatefulWidget {
 }
 
 class PasswordCriteriaPageState extends State<PasswordCriteria> {
-  String password;
+  String password ="";
 
   @override
   Widget build(BuildContext context) {

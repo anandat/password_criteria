@@ -7,7 +7,7 @@
 
 # A new Flutter plugin for password criteria
 
-Current version (0.1.1) Bug Fixes and clean code
+Current version (0.1.4) Bug Fixes and clean code
 
 This package returns a container view which is having 5 criteria in Red color.
 
